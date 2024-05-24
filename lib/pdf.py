@@ -20,7 +20,7 @@ class TestPDF:
         return f'a pdf file for demo tests.'
 
 if __name__ == '__main__':
-    pdf = PDF()
+    pdf = TestPDF()
     with open(pdf.filepath, 'rb') as file:
         print(pdf.filepath)
         print(pdf)
